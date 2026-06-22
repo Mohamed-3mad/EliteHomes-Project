@@ -741,7 +741,7 @@ textarea {
     .dropdown-menu {
         --bs-dropdown-min-width: 75rem !important;
         top: 0 !important;
-        transform:scale(80%) translateX(-65%) !important;
+        transform:scale(80%) translateX(-60%) !important;
         max-height: none;
         overflow-y: hidden !important;
     }
@@ -758,7 +758,8 @@ textarea {
 @media (min-width: 1024px) {
     .dropdown-menu {
       --bs-dropdown-min-width: 75rem !important;
-        transform:scale(85%) translateX(-60%)   !important;
+        transform:scale(85%) translateX(-57%)   !important;
+        top: 0 !important;
         max-height: none;
         overflow-y: visible;
     }
@@ -769,8 +770,9 @@ textarea {
 @media (min-width: 1280px) {
     .dropdown-menu {
       --bs-dropdown-min-width: 75rem !important;
-        transform: translateX(-60%) !important;
-        max-height: none;
-        overflow-y: visible;
+      top: 100% !important;
+      transform: translateX(-55%) !important;
+      max-height: none;
+      overflow-y: visible;
     }
 }
